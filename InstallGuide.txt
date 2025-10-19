@@ -1,0 +1,155 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                  OTTER CLIENT INSTALLATION GUIDE                  ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+📋 REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Roblox account
+• Script executor (e.g., Synapse X, Script-Ware, KRNL, Fluxus)
+• Access to Roblox BedWars game
+
+📦 INSTALLATION METHODS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METHOD 1: Direct Script Execution (Recommended)
+────────────────────────────────────────────────────────────────────
+1. Open Roblox BedWars
+2. Inject your script executor
+3. Open OtterClient.lua in a text editor
+4. Copy ALL the code (Ctrl+A, Ctrl+C)
+5. Paste into your executor
+6. Click "Execute" or "Run Script"
+7. Wait for the notification "Otter Client Loaded successfully!"
+8. Press RightShift to open the GUI
+
+METHOD 2: Using Loader Script
+────────────────────────────────────────────────────────────────────
+1. Open Roblox BedWars
+2. Inject your script executor
+3. Open Loader.lua
+4. Copy and execute the loader script
+5. The loader will automatically load all components
+6. Press RightShift to open the GUI
+
+METHOD 3: Load from File (if executor supports it)
+────────────────────────────────────────────────────────────────────
+1. Place all .lua files in your executor's scripts folder
+2. Open Roblox BedWars
+3. Inject your executor
+4. Use: loadfile("OtterClient.lua")()
+5. Press RightShift to open the GUI
+
+🎮 FIRST TIME SETUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. After loading, you'll see a notification
+2. Press RightShift to open the GUI
+3. The GUI will appear in the center of your screen
+4. You can drag the window by clicking and dragging the header
+5. Navigate through tabs: Combat, Movement, Utility, World
+6. Click toggle buttons to enable/disable features
+
+⚙️ CUSTOMIZATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+To customize settings:
+1. Open Config.lua in a text editor
+2. Modify values as desired:
+   • GUI colors and theme
+   • Default feature settings (ranges, speeds, etc.)
+   • Keybinds
+   • Performance settings
+3. Save the file
+4. Load the client again
+
+📝 FEATURE USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COMBAT TAB:
+• KillAura - Automatically attacks nearby enemies
+• Velocity - Reduces knockback taken
+• Reach - Extends your attack range
+• AutoBlock - Automatically blocks with sword
+• Criticals - Enhanced critical hits
+
+MOVEMENT TAB:
+• Speed - Increases walk speed
+• Fly - Enables flight (WASD + Space/Shift)
+• NoFall - Prevents fall damage
+• Spider - Climb walls
+• LongJump - Extended jump distance
+
+UTILITY TAB:
+• AutoCollect - Auto-collects nearby items
+• ChestStealer - Quickly loots chests
+• Nuker - Breaks blocks around you
+• Scaffold - Places blocks under you
+• ESP - See players/beds through walls
+• Tracers - Lines to entities
+• AntiVoid - Teleports you up if falling
+
+WORLD TAB:
+• Fullbright - Removes darkness
+• NoWeather - Clears weather effects
+• Zoom - Extends camera zoom
+
+🔧 TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem: GUI doesn't appear
+Solution: Press RightShift. Check if script executed without errors.
+
+Problem: Features not working
+Solution: Make sure you're in a BedWars game. Try rejoining the game.
+
+Problem: Script errors
+Solution: Make sure you copied the ENTIRE script. Check executor console.
+
+Problem: Can't move GUI
+Solution: Click and drag the header (top bar with title).
+
+Problem: Game crashes
+Solution: Disable some features. Lower ranges/speeds in Config.lua.
+
+Problem: Features stop working after respawn
+Solution: This is normal. Features automatically reload on respawn.
+
+🛡️ SAFETY TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Use an alternate account for safety
+• Don't tell others you're using the client
+• Don't use all features at maximum settings (obvious cheating)
+• Be subtle - use lower ranges and speeds
+• If detected, immediately stop and rejoin
+
+⌨️ CONTROLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RightShift      - Toggle GUI visibility
+Left Click      - Toggle features
+Click & Drag    - Move GUI window
+Tab Keys        - Switch between feature categories
+
+🔄 UPDATES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Check for updates regularly
+• Keep all .lua files together
+• Backup your Config.lua before updating
+• Replace old files with new versions
+
+⚠️ IMPORTANT NOTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• This is for EDUCATIONAL PURPOSES only
+• Use at your own risk
+• We are not responsible for any bans
+• Respect other players and the game
+• Don't ruin the experience for others
+
+📞 SUPPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+If you encounter issues:
+1. Check this guide first
+2. Verify all files are present
+3. Make sure your executor is updated
+4. Try with default Config.lua settings
+
+═══════════════════════════════════════════════════════════════════
+               Made with 🦦 by Otter Team - Version 2.0
+═══════════════════════════════════════════════════════════════════
