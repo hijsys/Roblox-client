@@ -1,6 +1,13 @@
 # 🦦 Otter Client - Professional BedWars Client
 
-A powerful, feature-rich client for Roblox BedWars with a modern, professional GUI.
+A powerful, feature-rich client for Roblox BedWars with **REAL WORKING REMOTES** and a modern, professional GUI.
+
+## ✨ Key Features
+- **ACTUAL Remote Integration** - Not placeholder code! Uses real BedWars remotes
+- **Smart Remote Detection** - Automatically finds and caches game remotes
+- **Proper Physics** - Real BodyVelocity, AssemblyLinearVelocity manipulation
+- **Working Combat Logic** - Functional sword attacks, knockback reduction, hitbox expansion
+- **Professional GUI** - Modern, sleek, and fully customizable
 
 ## 🚀 Features
 

@@ -8,13 +8,18 @@
 
 CORE FILES:
 ───────────
-✅ OtterClient.lua (864 lines)
-   - Main client script with all features
+✅ OtterClient.lua (1,500+ lines) 
+   - REAL REMOTE DETECTION AND INTEGRATION
+   - Working combat logic with actual sword attacks
+   - Real physics: BodyVelocity, AssemblyLinearVelocity
+   - Functional ESP with BillboardGui creation
+   - Working AutoCollect with item detection
+   - Proper Nuker with block breaking logic
    - Professional GUI system
    - Combat, Movement, Utility, World features
    - Error handling with pcall
-   - Remote integration
    - Auto-respawn handling
+   - State management and restoration
 
 ✅ Config.lua (178 lines)
    - Customizable configuration file
